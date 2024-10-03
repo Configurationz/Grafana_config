@@ -2,7 +2,7 @@
 
 ### Pre-requisites:
 
-- Grafana Cloud / Self Hosted Grafana
+- Open Source (Self-managed) / Grafana Cloud (Fully-managed)
 - Azure Account with an Active Subscription
 
 ### Configuration:
