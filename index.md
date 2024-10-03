@@ -1,5 +1,4 @@
 ## Grafana Configuration with Azure Monitor
--------------------------------------------
 
 ### Pre-requisites:
 
@@ -8,9 +7,9 @@
 
 ### Configuration:
 
-1. Configure the data Source -
+1. Configuring the Data Sources -
 
-- Since, we're working with Azure Monitor, we will be configuring the Azure Monitor Data source
+- Since, we're working with Azure Monitor, we'll be configuring the Azure Monitor Data source
 
 - Azure Monitor data source supports visualizing data from 4 Azure Services
 
@@ -20,7 +19,7 @@
   - Azure Monitor Application Insights
 
 
-1. Login the Grafana cloud, using the url `http://localhost:3000/login` and the default username/password is `admin/admin`
+1. Log-in to the Grafana cloud, using the url `http://localhost:3000/login` and the default username/password is `admin/admin`
 
 2. So, once we're able to login the grafana cloud, first thing we need to do is adding a data source which in our case is Azure Monitor 
 
@@ -66,7 +65,7 @@ Get-AzureRmContext | Select Subscription, Tenant
 
 ![](./imgs/IAM-role-assign1.png)
 ![](./imgs/IAM-role-assign2.png)
-![](./imgs/IAM-role-assign3.png)
+![](./imgs/IAM-role-assign3_LI.jpg)
 
 9. Finally, we need a client secret.
 
