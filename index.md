@@ -27,20 +27,22 @@
 
 ![](./imgs/data-source.png)
 
-* Next, search for Azure Monitor and select it ![](./imgs/data-source2.png)
+* Next, search for Azure Monitor and select it 
+
+![](./imgs/data-source2.png)
 
 * Now we need to add the Directory (tenant) ID, Application (client) Id & Client Secret 
 
 ![](./imgs/data-source3.png)
 
-1. Visit Azure portal where all our resources are present and open a Cloud Shell
+3. Visit Azure portal where all our resources are present and open a Cloud Shell
 * From powershell cli find out the Subscription ID and the Tenant Id
 ```
 Get-AzureRmContext | Select Subscription, Tenant
 ```
 * Hence, we received the Tenant ID so key this Tenant ID in Grafana portal
 
-1. After this, we need to add the Security principle like users have user principle same way security has security principle
+4. After this, we need to add the Security principle like users have user principle same way security has security principle
 
 * So, Grafana is going to use this security principle to access the API
 
@@ -54,9 +56,9 @@ Get-AzureRmContext | Select Subscription, Tenant
 
 ![](./imgs/app-registration2.png)
 
-1. Now, we're left with client secret. But before that, we need to give permission to the newly created `Grafana App` to access Azure Monitor
+5. Now, we're left with client secret. But before that, we need to give permission to the newly created `Grafana App` to access Azure Monitor
 
-2. Next, Open the Grafana App from Microsoft Entra Id > App Registrations > View all application in the directory
+6. Next, Open the Grafana App from Microsoft Entra Id > App Registrations > View all application in the directory
 * From here select our recently created application i.e., Grafana
 * From the Left Pane, Manage > API permissions > Add a permission
 
@@ -92,6 +94,7 @@ Get-AzureRmContext | Select Subscription, Tenant
 ![](./imgs/grafana-final-data-source.png)
 
 * Now, we're ready to use Grafana and get all details of the required resources from Azure Monitor
+
 
 ### References ~
 
