@@ -98,13 +98,13 @@ Get-AzureRmContext | Select Subscription, Tenant
 
 ### References ~
 
-_**[Set up Grafana](https://grafana.com/docs/grafana/latest/setup-grafana/){:target="\_blank"}**_
+_**[Set up Grafana](https://grafana.com/docs/grafana/latest/setup-grafana/){:target="_blank"}**_
 
-_**[Download Grafana](https://grafana.com/grafana/download){:target="\_blank"}**_
+_**[Download Grafana](https://grafana.com/grafana/download){:target="_blank"}**_
 
-_**[Create your free account on Grafana Cloud](https://grafana.com/auth/sign-up/create-user){:target="\_blank"}**_
+_**[Create your free account on Grafana Cloud](https://grafana.com/auth/sign-up/create-user){:target="_blank"}**_
 
 
-_**[Get started with Grafana Cloud](https://grafana.com/docs/grafana-cloud/get-started/){:target="\_blank"}**_
+_**[Get started with Grafana Cloud](https://grafana.com/docs/grafana-cloud/get-started/){:target="_blank"}**_
 
-_**[Grafana Labs Community](https://grafana.com/community/){:target="\_blank"}**_
+_**[Grafana Labs Community](https://grafana.com/community/){:target="_blank"}**_
